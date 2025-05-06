@@ -4,7 +4,7 @@
 
 Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multiple sources.
 
-![Screenshot](/Screenshot1.png)
+![Screenshot](/Screenshot3.png)
 
 ## Componets and sources
 
@@ -20,7 +20,12 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
     - Weather Icons Regular Font
     - [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
+- Google Calendar Integration- gcalcli
+    - gcalcli [Github](https://github.com/insanum/gcalcli.git)
+
 ## Installation
+
+If you need the google calendar integration follow : - [Tutorial](https://www.linuxuprising.com/2018/11/how-to-embed-google-calendar-on-your.html)
 
 ### *Fast Way*
 Ensure that the setup.sh script in the project root has execute permissions. Either `chmod +x setup.sh` or `Enable Executable as a program` via the File Manager.
@@ -58,6 +63,7 @@ Ensure that the setup.sh script in the project root has execute permissions. Eit
 
 ## Customisation
 
-If you want to customise positioning, edit `Simple-Conky-theme/Simple-Conky-theme.conf`. You may want to change positioning of elements. In that case, refer to [the Conky documentation](http://conky.sourceforge.net/documentation.html).
+If you want to customise positioning, edit `Simple-Conky-theme/Simple-Conky-theme.conf` and `Simple-Conky-theme/gcalendar.conf`
+You may want to change positioning of elements. In that case, refer to [the Conky documentation](http://conky.sourceforge.net/documentation.html).
 
 ### Feel Free to drop any issues and modifications required
