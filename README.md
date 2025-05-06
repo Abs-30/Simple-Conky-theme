@@ -22,6 +22,21 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
 
 ## Installation
 
+### *Fast Way*
+Ensure that the setup.sh script in the project root has execute permissions. Either `chmod +x setup.sh` or `Enable Executable as a program` via the File Manager.
+
+1.  Install Conky
+    - Fedora 42: `sudo dnf install conky`
+    - Other: see your local documentation or try [the Conky documentation](http://conky.sourceforge.net/documentation.html).
+
+2. Install the Fonts in the `Simple-Conky-theme/fonts` directory
+
+3. Run the setup script `./setup.sh` and provide your city id and api key from [OpenWeatherMap API](https://home.openweathermap.org/)
+
+4. Log out and back in
+
+### *Manual Installation*
+
 1.  Install Conky
     - Fedora 42: `sudo dnf install conky`
     - Other: see your local documentation or try [the Conky documentation](http://conky.sourceforge.net/documentation.html).
@@ -40,5 +55,9 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
 	- Modify the code `Exec=/home/USER_NAME/.config/conky/start_conky.sh` in the file with replacing `USER_NAME`
     
 7.  Relogin to your gnome session
+
+## Customisation
+
+If you want to customise positioning, edit `Simple-Conky-theme/Simple-Conky-theme.conf`. You may want to change positioning of elements. In that case, refer to [the Conky documentation](http://conky.sourceforge.net/documentation.html).
 
 ### Feel Free to drop any issues and modifications required
