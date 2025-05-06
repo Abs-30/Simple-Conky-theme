@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# This command will close all active conky
 killall conky
 sleep 2s
-		
-# Only the config listed below will be avtivated
-# if you want to combine with another theme, write the command here
+
+# Launch main system monitor (top left)
 conky -c $HOME/.config/conky/Simple-Conky-theme/Simple-Conky-theme.conf &> /dev/null &
+
+# Launch Calender (top right)
+conky -c $HOME/.config/conky/Simple-Conky-theme/gcalendar.conf &> /dev/null &
 
 exit
