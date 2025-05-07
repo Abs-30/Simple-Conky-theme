@@ -4,7 +4,7 @@
 
 Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multiple sources.
 
-![Screenshot](/Screenshot3.png)
+![Screenshot](/Screenshot4.png)
 
 ## Componets and sources
 
