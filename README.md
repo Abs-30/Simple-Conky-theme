@@ -50,7 +50,7 @@ Ensure that the setup.sh script in the project root has execute permissions. Eit
     
 3.  Install the Fonts in the `Simple-Conky-theme/fonts` directory
     
-4.  Edit `Simple-Conky-theme/fonts` with your `city_id=` and `api_key=`.
+4.  Edit `Simple-Conky-theme/scripts` with your `city_id=` and `api_key=`.
     
     - More infomation can be found in [Malformed Blog](https://malformed-blog.blogspot.com/2025/02/how-to-apply-theme.html)
 5.  Place `start_conky.sh` in `/home/USER_NAME/.config/conky` directory
