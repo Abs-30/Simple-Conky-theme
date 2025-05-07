@@ -69,6 +69,7 @@ Ensure that the setup.sh script in the project root has execute permissions. Eit
 7.  Relogin to your gnome session
 
 **Incase the widgets do not load if you are not having a Nvidia-GPU**
+
 8. Delete `Simple-Conky-theme.conf` and Rename the `Simple-Conky-theme-NoGPU.conf` ---> `Simple-Conky-theme.conf` at the `/home/USER_NAME/.config/conky/Simple-Conky-theme` directory and relogin.
 
 
