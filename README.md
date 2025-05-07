@@ -23,6 +23,13 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
 - Google Calendar Integration- gcalcli
     - gcalcli [Github](https://github.com/insanum/gcalcli.git)
 
+- Please ensure that you have the following installed before proceeding with the installation.
+    - lm_sensors `sudo dnf install sensors`
+    - nvidia-smi : Install the nvidia drivers (I have installed the drivers via akmod-nvidia)
+
+- The GPU data will only be shown for Nvidia GPU for now. (*Working on a fix for Intel/AMD GPUs*)
+    - Incase if the conky widgets doesnt load follow step 8 of Manual installation
+
 ## Installation
 
 If you need the google calendar integration follow : - [Tutorial](https://www.linuxuprising.com/2018/11/how-to-embed-google-calendar-on-your.html)
@@ -60,6 +67,10 @@ Ensure that the setup.sh script in the project root has execute permissions. Eit
 	- Modify the code `Exec=/home/USER_NAME/.config/conky/start_conky.sh` in the file with replacing `USER_NAME`
     
 7.  Relogin to your gnome session
+
+**Incase the widgets do not load if you are not having a Nvidia-GPU**
+8. Delete `Simple-Conky-theme.conf` and Rename the `Simple-Conky-theme-NoGPU.conf` ---> `Simple-Conky-theme.conf` at the `/home/USER_NAME/.config/conky/Simple-Conky-theme` directory and relogin.
+
 
 ## Customisation
 
